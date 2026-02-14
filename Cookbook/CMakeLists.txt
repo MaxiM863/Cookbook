@@ -49,14 +49,14 @@ add_library(CookbookWrapperLib INTERFACE
 )
 
 target_include_directories(CookbookWrapperLib INTERFACE
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../Library/Source_Files>
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../Library/Common_Files>
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../External>
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../Samples/Common_Files>
-$<INSTALL_INTERFACE:../Library/Source_Files> # relative to install prefix
-$<INSTALL_INTERFACE:../Library/Common_Files> # relative to install prefix
-$<INSTALL_INTERFACE:../External> # relative to install prefix
-$<INSTALL_INTERFACE:../Samples/Common_Files> # relative to install prefix
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Source_Files>
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Common_Files>
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/External>
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Samples/Common_Files>
+$<INSTALL_INTERFACE:/Library/Source_Files> # relative to install prefix
+$<INSTALL_INTERFACE:/Library/Common_Files> # relative to install prefix
+$<INSTALL_INTERFACE:/External> # relative to install prefix
+$<INSTALL_INTERFACE:/Samples/Common_Files> # relative to install prefix
 )
 
 install(TARGETS CookbookWrapperLib

@@ -60,7 +60,7 @@ add_library(CookbookWrapperLib INTERFACE IMPORTED)
 
 set_target_properties(CookbookWrapperLib PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "CMAKE_EXPORT_COMPILE_COMMANDS=1"
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/../Library/Source_Files;${_IMPORT_PREFIX}/../Library/Common_Files;${_IMPORT_PREFIX}/../External;${_IMPORT_PREFIX}/../Samples/Common_Files"
+  INTERFACE_INCLUDE_DIRECTORIES "/Library/Source_Files;/Library/Common_Files;/External;/Samples/Common_Files"
 )
 
 # Load information for each installed configuration.
