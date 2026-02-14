@@ -7,7 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_LINKER_TYPE "CXX")
 
 # Define a library target
-add_library(CookbookWrapperLib INTERFACE
+add_library(CookbookWrapperLib STATIC
 
 "Library/Source_Files/01_Instance_and_Devices/compacte.cpp"
 "Library/Source_Files/01_Instance_and_Devices/compacte.h"
@@ -51,17 +51,6 @@ add_library(CookbookWrapperLib INTERFACE
 "Samples/Common_Files/CookbookSampleFramework.cpp"
 "Samples/Common_Files/OrbitingCamera.cpp"
 
-)
-
-target_include_directories(CookbookWrapperLib INTERFACE
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Source_Files>
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Common_Files>
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/External>
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Samples/Common_Files>
-$<INSTALL_INTERFACE:/Library/Source_Files> # relative to install prefix
-$<INSTALL_INTERFACE:/Library/Common_Files> # relative to install prefix
-$<INSTALL_INTERFACE:/External> # relative to install prefix
-$<INSTALL_INTERFACE:/Samples/Common_Files> # relative to install prefix
 )
 
 install(TARGETS CookbookWrapperLib
