@@ -71,7 +71,7 @@ namespace VulkanCookbook {
 
   Matrix4x4 Inverse(Matrix4x4 m)
   {
-    double inv[16], det;
+    float inv[16], det;
     int i;
     Matrix4x4 invI;
 
