@@ -20,10 +20,6 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.2.3/CMakeCCompiler.cmake"
-		},
-		{
-			"isGenerated" : true,
 			"path" : "build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
 		},
 		{
@@ -50,85 +46,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.2.3/CMakeRCCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Linker/MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Linker/MSVC.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -166,6 +83,15 @@
 			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.2.3/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake"
@@ -199,9 +125,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake"
-		},
-		{
-			"path" : "Cookbook/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -8,7 +8,7 @@
 		],
 		"files" : 
 		[
-			"Cookbook/CMakeLists.txt"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -28,12 +28,12 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "CookbookWrapperLib::@2e652c9ee9ea571f7887",
+	"id" : "CookbookWrapperLib::@6890427a1f51a3e7e1df",
 	"name" : "CookbookWrapperLib",
 	"paths" : 
 	{
-		"build" : "Cookbook",
-		"source" : "Cookbook"
+		"build" : ".",
+		"source" : "."
 	},
 	"sourceGroups" : 
 	[

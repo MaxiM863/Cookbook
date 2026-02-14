@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -775,7 +775,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CookbookWrapper"
+			"value" : "CookbookWrapperLib"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "F:/Codes/Cookbook/Cookbook/build/Cookbook"
+			"value" : "F:/Codes/Cookbook/Cookbook/build"
 		},
 		{
 			"name" : "CookbookWrapperLib_IS_TOP_LEVEL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "CookbookWrapperLib_SOURCE_DIR",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "F:/Codes/Cookbook/Cookbook/Cookbook"
+			"value" : "F:/Codes/Cookbook/Cookbook"
 		},
 		{
 			"name" : "CookbookWrapper_BINARY_DIR",

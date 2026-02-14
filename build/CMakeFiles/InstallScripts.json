@@ -1,8 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"F:/Codes/Cookbook/Cookbook/build/cmake_install.cmake",
-		"F:/Codes/Cookbook/Cookbook/build/Cookbook/cmake_install.cmake"
+		"F:/Codes/Cookbook/Cookbook/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

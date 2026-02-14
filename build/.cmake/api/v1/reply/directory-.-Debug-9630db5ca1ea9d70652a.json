@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"Cookbook/CMakeLists.txt"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -37,20 +37,20 @@
 			"exportTargets" : 
 			[
 				{
-					"id" : "CookbookWrapperLib::@2e652c9ee9ea571f7887",
+					"id" : "CookbookWrapperLib::@6890427a1f51a3e7e1df",
 					"index" : 0
 				}
 			],
 			"paths" : 
 			[
-				"Cookbook/CMakeFiles/Export/d35500daa2069f0f785d9665241ffaef/CookbookWrapperLibTargets.cmake"
+				"CMakeFiles/Export/d35500daa2069f0f785d9665241ffaef/CookbookWrapperLibTargets.cmake"
 			],
 			"type" : "export"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "Cookbook",
-		"source" : "Cookbook"
+		"build" : ".",
+		"source" : "."
 	}
 }
