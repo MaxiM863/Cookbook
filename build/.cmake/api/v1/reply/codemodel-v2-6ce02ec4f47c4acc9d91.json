@@ -1,0 +1,90 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Cookbook",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Cookbook-Debug-12e5ac04776f7088ba0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Cookbook",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CookbookWrapper"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CookbookWrapperLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CookbookWrapperLib::@2e652c9ee9ea571f7887",
+					"jsonFile" : "target-CookbookWrapperLib-Debug-c4a98dde3c8cabcdce11.json",
+					"name" : "CookbookWrapperLib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Codes/Cookbook/Cookbook/build",
+		"source" : "F:/Codes/Cookbook/Cookbook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

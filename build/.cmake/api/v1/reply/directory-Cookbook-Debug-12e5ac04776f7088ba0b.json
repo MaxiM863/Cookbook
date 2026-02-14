@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Cookbook/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/CookbookWrapperLib",
+			"exportName" : "CookbookWrapperLibTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "CookbookWrapperLib::@2e652c9ee9ea571f7887",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"Cookbook/CMakeFiles/Export/d35500daa2069f0f785d9665241ffaef/CookbookWrapperLibTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Cookbook",
+		"source" : "Cookbook"
+	}
+}
