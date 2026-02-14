@@ -40,11 +40,194 @@ include CMakeFiles\rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = F$:\Codes\Cookbook\Cookbook\build\
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target CookbookWrapperLib
+
 
 #############################################
-# Utility command for CookbookWrapperLib
+# Order-only phony target for CookbookWrapperLib
 
-build CookbookWrapperLib: phony
+build cmake_object_order_depends_target_CookbookWrapperLib: phony || .
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\01_Instance_and_Devices\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\01_Instance_and_Devices\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\01_Instance_and_Devices
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\02_Image_Presentation\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\02_Image_Presentation\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\02_Image_Presentation
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\03_Command_Buffers_and_Synchronization\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\03_Command_Buffers_and_Synchronization\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\03_Command_Buffers_and_Synchronization
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\04_Resources_and_Memory\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\04_Resources_and_Memory\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\04_Resources_and_Memory
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\05_Descriptor_Sets\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\05_Descriptor_Sets\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\05_Descriptor_Sets
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\06_Render_Passes_and_Framebuffers\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\06_Render_Passes_and_Framebuffers\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\06_Render_Passes_and_Framebuffers
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\08_Graphics_and_Compute_Pipelines\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\08_Graphics_and_Compute_Pipelines\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\08_Graphics_and_Compute_Pipelines
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\09_Command_Recording_and_Drawing\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\09_Command_Recording_and_Drawing\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\09_Command_Recording_and_Drawing
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\10_Helper_Recipes\compacte.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Source_Files\10_Helper_Recipes\compacte.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\10_Helper_Recipes
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\VulkanFunctions.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Common_Files\VulkanFunctions.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\Common.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Common_Files\Common.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\Tools.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Library\Common_Files\Tools.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\OS.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Samples\Common_Files\OS.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\Camera.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Samples\Common_Files\Camera.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\CookbookSampleFramework.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Samples\Common_Files\CookbookSampleFramework.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\OrbitingCamera.cpp.obj: CXX_COMPILER__CookbookWrapperLib_unscanned_Debug F$:\Codes\Cookbook\Cookbook\Samples\Common_Files\OrbitingCamera.cpp || cmake_object_order_depends_target_CookbookWrapperLib
+  CONFIG = Debug
+  DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target CookbookWrapperLib
+
+
+#############################################
+# Link the static library CookbookWrapperLib.lib
+
+build CookbookWrapperLib.lib: CXX_STATIC_LIBRARY_LINKER__CookbookWrapperLib_Debug CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\01_Instance_and_Devices\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\02_Image_Presentation\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\03_Command_Buffers_and_Synchronization\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\04_Resources_and_Memory\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\05_Descriptor_Sets\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\06_Render_Passes_and_Framebuffers\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\08_Graphics_and_Compute_Pipelines\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\09_Command_Recording_and_Drawing\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\10_Helper_Recipes\compacte.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\VulkanFunctions.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\Common.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\Tools.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\OS.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\Camera.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\CookbookSampleFramework.cpp.obj CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\OrbitingCamera.cpp.obj
+  CONFIG = Debug
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:X86
+  OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
+  TARGET_FILE = CookbookWrapperLib.lib
+  TARGET_PDB = CookbookWrapperLib.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\CookbookWrapperLib.dir
 
 
 #############################################
@@ -103,6 +286,8 @@ build install\local: phony CMakeFiles\install\local.util
 # =============================================================================
 # Target aliases.
 
+build CookbookWrapperLib: phony CookbookWrapperLib.lib
+
 # =============================================================================
 # Folder targets.
 
@@ -111,7 +296,7 @@ build install\local: phony CMakeFiles\install\local.util
 #############################################
 # Folder: F:/Codes/Cookbook/Cookbook/build
 
-build all: phony CookbookWrapperLib
+build all: phony CookbookWrapperLib.lib
 
 # =============================================================================
 # Built-in targets
@@ -120,14 +305,14 @@ build all: phony CookbookWrapperLib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja F$:\Codes\Cookbook\Cookbook\build\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake F$:\Codes\Cookbook\Cookbook\CMakeLists.txt
+build build.ninja F$:\Codes\Cookbook\Cookbook\build\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCCompiler.cmake CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake F$:\Codes\Cookbook\Cookbook\CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake F$:\Codes\Cookbook\Cookbook\CMakeLists.txt: phony
+build C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCCompiler.cmake CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake F$:\Codes\Cookbook\Cookbook\CMakeLists.txt: phony
 
 
 #############################################
