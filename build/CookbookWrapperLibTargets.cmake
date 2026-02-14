@@ -51,6 +51,7 @@ add_library(CookbookWrapperLib::CookbookWrapperLib STATIC IMPORTED)
 
 set_target_properties(CookbookWrapperLib::CookbookWrapperLib PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "CMAKE_EXPORT_COMPILE_COMMANDS=1"
+  INTERFACE_INCLUDE_DIRECTORIES "F:/Codes/Cookbook/Cookbook/Library/Source_Files;F:/Codes/Cookbook/Cookbook/Library/Common_Files;F:/Codes/Cookbook/Cookbook/External;F:/Codes/Cookbook/Cookbook/Samples/Common_Files"
 )
 
 # Import target "CookbookWrapperLib::CookbookWrapperLib" for configuration "Debug"

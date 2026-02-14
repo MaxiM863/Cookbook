@@ -52,7 +52,7 @@ add_library(CookbookWrapperLib STATIC
 
 )
 
-target_include_directories(CookbookWrapperLib STATIC
+target_include_directories(CookbookWrapperLib PUBLIC
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Source_Files>
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Common_Files>
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/External>

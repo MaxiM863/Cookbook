@@ -53,6 +53,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\01_Instance_and_Dev
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\01_Instance_and_Devices
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -63,6 +64,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\02_Image_Presentati
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\02_Image_Presentation
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -73,6 +75,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\03_Command_Buffers_
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\03_Command_Buffers_and_Synchronization
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -83,6 +86,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\04_Resources_and_Me
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\04_Resources_and_Memory
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -93,6 +97,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\05_Descriptor_Sets\
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\05_Descriptor_Sets
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -103,6 +108,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\06_Render_Passes_an
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\06_Render_Passes_and_Framebuffers
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -113,6 +119,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\08_Graphics_and_Com
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\08_Graphics_and_Compute_Pipelines
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -123,6 +130,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\09_Command_Recordin
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\09_Command_Recording_and_Drawing
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -133,6 +141,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\10_Helper_Recipes\c
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Source_Files\10_Helper_Recipes
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -143,6 +152,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\VulkanFunctions.cpp
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -153,6 +163,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\Common.cpp.obj: CXX
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -163,6 +174,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files\Tools.cpp.obj: CXX_
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Library\Common_Files
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -173,6 +185,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\OS.cpp.obj: CXX_COM
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -183,6 +196,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\Camera.cpp.obj: CXX
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -193,6 +207,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\CookbookSampleFrame
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb
@@ -203,6 +218,7 @@ build CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files\OrbitingCamera.cpp.
   CONFIG = Debug
   DEFINES = -DVK_USE_PLATFORM_WIN32_KHR
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest
+  INCLUDES = -IF:\Codes\Cookbook\Cookbook\Library\Source_Files -IF:\Codes\Cookbook\Cookbook\Library\Common_Files -IF:\Codes\Cookbook\Cookbook\External -IF:\Codes\Cookbook\Cookbook\Samples\Common_Files
   OBJECT_DIR = CMakeFiles\CookbookWrapperLib.dir
   OBJECT_FILE_DIR = CMakeFiles\CookbookWrapperLib.dir\Samples\Common_Files
   TARGET_COMPILE_PDB = CMakeFiles\CookbookWrapperLib.dir\CookbookWrapperLib.pdb

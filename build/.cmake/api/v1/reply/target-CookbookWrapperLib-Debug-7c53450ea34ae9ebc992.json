@@ -22,7 +22,8 @@
 		[
 			"add_library",
 			"install",
-			"add_definitions"
+			"add_definitions",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -42,13 +43,19 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 55,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 78,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 55,
 				"parent" : 0
 			}
 		]
@@ -72,6 +79,25 @@
 				{
 					"backtrace" : 3,
 					"define" : "VK_USE_PLATFORM_WIN32_KHR"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "F:/Codes/Cookbook/Cookbook/Library/Source_Files"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/Codes/Cookbook/Cookbook/Library/Common_Files"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/Codes/Cookbook/Cookbook/External"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/Codes/Cookbook/Cookbook/Samples/Common_Files"
 				}
 			],
 			"language" : "CXX",
