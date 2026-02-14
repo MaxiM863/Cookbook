@@ -46,6 +46,11 @@ add_library(CookbookWrapperLib INTERFACE
 "../Library/Common_Files/Tools.h"
 "../Library/Common_Files/VulkanDestroyer.h"
 
+"../Samples/Common_Files/OS.cpp"
+"../Samples/Common_Files/Camera.cpp"
+"../Samples/Common_Files/CookbookSampleFramework.cpp"
+"../Samples/Common_Files/OrbitingCamera.cpp"
+
 )
 
 target_include_directories(CookbookWrapperLib INTERFACE
