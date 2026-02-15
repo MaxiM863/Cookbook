@@ -552,3 +552,137 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils for Ubuntu) 2.45
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "CMakeLists.txt:65 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-DeapGN"
+      binary: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-DeapGN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-DeapGN'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_ad825
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_ad825.dir/CheckFunctionExists.c.o -c /home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-DeapGN/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=XOpenDisplay  CMakeFiles/cmTC_ad825.dir/CheckFunctionExists.c.o -o cmTC_ad825  /usr/lib/x86_64-linux-gnu/libX11.so  /usr/lib/x86_64-linux-gnu/libXext.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "CMakeLists.txt:65 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-Lf64R7"
+      binary: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-Lf64R7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-Lf64R7'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b4763
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_b4763.dir/CheckFunctionExists.c.o -c /home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-Lf64R7/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=gethostbyname  CMakeFiles/cmTC_b4763.dir/CheckFunctionExists.c.o -o cmTC_b4763   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "CMakeLists.txt:65 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-7gssfx"
+      binary: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-7gssfx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-7gssfx'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_c5fad
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_c5fad.dir/CheckFunctionExists.c.o -c /home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-7gssfx/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=connect  CMakeFiles/cmTC_c5fad.dir/CheckFunctionExists.c.o -o cmTC_c5fad   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "CMakeLists.txt:65 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-FtikB1"
+      binary: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-FtikB1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-FtikB1'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6aefc
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_6aefc.dir/CheckFunctionExists.c.o -c /home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-FtikB1/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=remove  CMakeFiles/cmTC_6aefc.dir/CheckFunctionExists.c.o -o cmTC_6aefc   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "CMakeLists.txt:65 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-tYr25u"
+      binary: "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-tYr25u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-tYr25u'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_86018
+        [1/2] /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_86018.dir/CheckFunctionExists.c.o -c /home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CMakeScratch/TryCompile-tYr25u/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=shmat  CMakeFiles/cmTC_86018.dir/CheckFunctionExists.c.o -o cmTC_86018   && :
+        
+      exitCode: 0
+...
