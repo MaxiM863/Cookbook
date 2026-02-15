@@ -52,6 +52,24 @@ add_library(CookbookWrapperLib STATIC
 
 )
 
+if(WIN32)
+
+    add_definitions(-DVK_USE_PLATFORM_WIN32_KHR)
+
+endif(WIN32)
+
+if(UNIX)
+
+    add_definitions(-DVK_USE_PLATFORM_XLIB_KHR)
+
+endif(UNIX)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set_target_properties(CookbookWrapperLib PROPERTIES LINKER_LANGUAGE CXX)
+
+target_compile_definitions(CookbookWrapperLib INTERFACE CMAKE_EXPORT_COMPILE_COMMANDS=1)
+
 target_include_directories(CookbookWrapperLib PUBLIC
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Source_Files>
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Common_Files>
@@ -83,21 +101,3 @@ install(EXPORT CookbookWrapperLibTargets
     FILE CookbookWrapperLibTargets.cmake
     DESTINATION lib/cmake/CookbookWrapperLib
 )
-
-if(WIN32)
-
-    add_definitions(-DVK_USE_PLATFORM_WIN32_KHR)
-
-endif(WIN32)
-
-if(UNIX)
-
-    add_definitions(-DVK_USE_PLATFORM_XLIB_KHR)
-
-endif(UNIX)
-
-set(CMAKE_CXX_STANDARD 23)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-set_target_properties(CookbookWrapperLib PROPERTIES LINKER_LANGUAGE CXX)
-
-target_compile_definitions(CookbookWrapperLib INTERFACE CMAKE_EXPORT_COMPILE_COMMANDS=1)
