@@ -81,10 +81,12 @@ set_target_properties(CookbookWrapperLib PROPERTIES LINKER_LANGUAGE CXX)
 target_compile_definitions(CookbookWrapperLib INTERFACE CMAKE_EXPORT_COMPILE_COMMANDS=1)
 
 target_include_directories(CookbookWrapperLib PUBLIC
+$<BUILD_INTERFACE:${X11_INCLUDE_DIR}>
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Source_Files>
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Library/Common_Files>
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/External>
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Samples/Common_Files>
+$<INSTALL_INTERFACE:${X11_INCLUDE_DIR}>
 $<INSTALL_INTERFACE:/Library/Source_Files> # relative to install prefix
 $<INSTALL_INTERFACE:/Library/Common_Files> # relative to install prefix
 $<INSTALL_INTERFACE:/External> # relative to install prefix
