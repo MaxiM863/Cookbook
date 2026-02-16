@@ -76,7 +76,7 @@ endif(UNIX)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-set_target_properties(CookbookWrapperLib PROPERTIES LINKER_LANGUAGE CXX)
+#set_target_properties(CookbookWrapperLib PROPERTIES LINKER_LANGUAGE CXX)
 
 target_compile_definitions(CookbookWrapperLib PUBLIC CMAKE_EXPORT_COMPILE_COMMANDS=1)
 

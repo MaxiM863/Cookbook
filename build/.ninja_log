@@ -1,12 +1,13 @@
 # ninja log v6
+3026	3088	7929783387349557	CookbookWrapperLib.lib	1ba3c303aba24532
 34	2189	7929783357435150	CMakeFiles/CookbookWrapperLib.dir/Library/Common_Files/Tools.cpp.obj	68467199139ae0b5
-39	2199	7929783357474189	CMakeFiles/CookbookWrapperLib.dir/Samples/Common_Files/Camera.cpp.obj	f9ff1f2dff8c7e42
-29	2208	7929783357386350	CMakeFiles/CookbookWrapperLib.dir/Library/Common_Files/VulkanFunctions.cpp.obj	e947b8af513834c2
 32	2216	7929783357405871	CMakeFiles/CookbookWrapperLib.dir/Library/Common_Files/Common.cpp.obj	e1564c30cafef772
+39	2199	7929783357474189	CMakeFiles/CookbookWrapperLib.dir/Samples/Common_Files/Camera.cpp.obj	f9ff1f2dff8c7e42
 43	2255	7929783357523001	CMakeFiles/CookbookWrapperLib.dir/Samples/Common_Files/OrbitingCamera.cpp.obj	94c52dbdd4263b54
+29	2208	7929783357386350	CMakeFiles/CookbookWrapperLib.dir/Library/Common_Files/VulkanFunctions.cpp.obj	e947b8af513834c2
+8	2367	7929783357171625	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/01_Instance_and_Devices/compacte.cpp.obj	4147911a6616309c
 11	2298	7929783357200907	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/02_Image_Presentation/compacte.cpp.obj	4afe5e9ea509446c
 13	2320	7929783357220435	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/03_Command_Buffers_and_Synchronization/compacte.cpp.obj	b4bacc3adfd8e30
-8	2367	7929783357171625	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/01_Instance_and_Devices/compacte.cpp.obj	4147911a6616309c
 20	2379	7929783357288750	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/06_Render_Passes_and_Framebuffers/compacte.cpp.obj	14f328c325dfbf98
 17	2385	7929783357269230	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/05_Descriptor_Sets/compacte.cpp.obj	225f0a61b418d6ac
 25	2467	7929783357337558	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/09_Command_Recording_and_Drawing/compacte.cpp.obj	4cc14575964191d8
@@ -15,4 +16,3 @@
 36	2625	7929783357454670	CMakeFiles/CookbookWrapperLib.dir/Samples/Common_Files/OS.cpp.obj	ba5460c16a92aadb
 27	2770	7929783357366829	CMakeFiles/CookbookWrapperLib.dir/Library/Source_Files/10_Helper_Recipes/compacte.cpp.obj	ce8b311cb9169b13
 41	3026	7929783357503481	CMakeFiles/CookbookWrapperLib.dir/Samples/Common_Files/CookbookSampleFramework.cpp.obj	da3274c6c14ca0dc
-3026	3088	7929783387349557	CookbookWrapperLib.lib	1ba3c303aba24532
