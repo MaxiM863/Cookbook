@@ -34,6 +34,7 @@
 
 #ifdef _WIN32
 #include <Windows.h>
+#define VK_USE_PLATFORM_WIN32_KHR
 #elif defined __linux
 #include <dlfcn.h>
 #include <X11/Xlib.h>
