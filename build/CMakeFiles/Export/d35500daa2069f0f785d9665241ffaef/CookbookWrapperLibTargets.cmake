@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.29)
+cmake_policy(VERSION 2.8.3...4.0)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -60,7 +60,7 @@ add_library(CookbookWrapperLib STATIC IMPORTED)
 
 set_target_properties(CookbookWrapperLib PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "CMAKE_EXPORT_COMPILE_COMMANDS=1"
-  INTERFACE_INCLUDE_DIRECTORIES "/usr/include;/Library/Source_Files;/Library/Common_Files;/External;/Samples/Common_Files"
+  INTERFACE_INCLUDE_DIRECTORIES "/Library/Source_Files;/Library/Common_Files;/External;/Samples/Common_Files"
 )
 
 # Load information for each installed configuration.

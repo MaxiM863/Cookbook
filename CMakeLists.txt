@@ -78,7 +78,7 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set_target_properties(CookbookWrapperLib PROPERTIES LINKER_LANGUAGE CXX)
 
-target_compile_definitions(CookbookWrapperLib INTERFACE CMAKE_EXPORT_COMPILE_COMMANDS=1)
+target_compile_definitions(CookbookWrapperLib PUBLIC CMAKE_EXPORT_COMPILE_COMMANDS=1)
 
 target_include_directories(CookbookWrapperLib PUBLIC
 $<BUILD_INTERFACE:${X11_INCLUDE_DIR}>

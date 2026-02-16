@@ -1,7 +1,6 @@
-/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/CookbookWrapperLib.dir
-/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/edit_cache.dir
-/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/rebuild_cache.dir
-/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/list_install_components.dir
-/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/install.dir
-/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/install/local.dir
-/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/CMakeFiles/install/strip.dir
+F:/Codes/Cookbook/Cookbook/build/CMakeFiles/CookbookWrapperLib.dir
+F:/Codes/Cookbook/Cookbook/build/CMakeFiles/edit_cache.dir
+F:/Codes/Cookbook/Cookbook/build/CMakeFiles/rebuild_cache.dir
+F:/Codes/Cookbook/Cookbook/build/CMakeFiles/list_install_components.dir
+F:/Codes/Cookbook/Cookbook/build/CMakeFiles/install.dir
+F:/Codes/Cookbook/Cookbook/build/CMakeFiles/install/local.dir

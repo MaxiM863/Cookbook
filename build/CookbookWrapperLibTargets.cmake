@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.29)
+cmake_policy(VERSION 2.8.3...4.0)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -51,14 +51,14 @@ add_library(CookbookWrapperLib::CookbookWrapperLib STATIC IMPORTED)
 
 set_target_properties(CookbookWrapperLib::CookbookWrapperLib PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "CMAKE_EXPORT_COMPILE_COMMANDS=1"
-  INTERFACE_INCLUDE_DIRECTORIES "/usr/include;/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/Library/Source_Files;/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/Library/Common_Files;/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/External;/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/Samples/Common_Files"
+  INTERFACE_INCLUDE_DIRECTORIES "F:/Codes/Cookbook/Cookbook/Library/Source_Files;F:/Codes/Cookbook/Cookbook/Library/Common_Files;F:/Codes/Cookbook/Cookbook/External;F:/Codes/Cookbook/Cookbook/Samples/Common_Files"
 )
 
 # Import target "CookbookWrapperLib::CookbookWrapperLib" for configuration "Debug"
 set_property(TARGET CookbookWrapperLib::CookbookWrapperLib APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(CookbookWrapperLib::CookbookWrapperLib PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/home/vboxuser/Desktop/Codes/CookbookWrapperLib/Cookbook/build/libCookbookWrapperLib.a"
+  IMPORTED_LOCATION_DEBUG "F:/Codes/Cookbook/Cookbook/build/CookbookWrapperLib.lib"
   )
 
 # This file does not depend on other imported targets which have
